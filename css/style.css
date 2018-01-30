@@ -1,0 +1,17 @@
+p {
+	color: #262626;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.lists {
+	color: #696969;
+}
+#header {
+	color: #c23636;
+}
+p span {
+	color: #d44a4a;
+}
+h2,h3 {
+	color: #243f7a;
+}
