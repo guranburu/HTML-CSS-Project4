@@ -86,6 +86,39 @@ a:active {
 	padding: 30px 40px;
 	margin: 20px auto;
 	background-color: #fff;
+	position: relative;
+}
+#author {
+	float: right;
+}
+#free {
+	width: 155px;
+	height: 120px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#new {
+	position: absolute;
+	top: -6px;
+	left: -6px;
+}
+#contact {
+	width: 44px;
+	height: 184px;
+	position: fixed;
+	left:0;
+	top: 50%;
+	margin-top: -92px;
+}
+#test {
+	margin: 0 auto;
+	display: block;
+}
+#order {
+	width: 212px;
+	height: 81px;
+	margin: 20px auto;
 }
 
 
