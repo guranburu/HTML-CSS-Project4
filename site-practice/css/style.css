@@ -14,6 +14,16 @@ a {
 p {
 	margin: 8px 0;
 }
+h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+	background: url(../images/arrow.png) no-repeat 0 11px ;
+	padding-left: 28px;
+	margin-bottom: 11px;
+}
+}
 .active, a:hover {
 	color: #090909;
 }
@@ -83,21 +93,15 @@ p {
 	margin-top: 20px;
 	border-bottom: 1px solid #c0c0c0;
 	overflow: hidden;
-	margin-bottom: 100px;
 	padding-bottom: 24px;
 }
 #content-box {
 	margin-right: 0;
 }
 .content-box h2 {
-	font-size: 18px;
-	font-weight: bold;
-	color: #090909;
-	text-transform: uppercase;
 	border-bottom: 5px solid #090909;
 	padding-bottom: 3px;
-	background: url(../images/arrow.png) no-repeat 0 11px ;
-	padding-left: 28px;
+	
 	margin-bottom: 16px;
 }
 .content-box ul li {
@@ -111,3 +115,31 @@ p {
 	color: #090909;
 	margin-top: 20px;
 }
+#portfolio {
+	margin-top: 20px;
+	padding-bottom:33px;
+	border-bottom: 1px solid #c0c0c0; 
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+.portfolio-image {
+	width: 215px; 
+	height: 135px;
+	float: left;
+	margin-right: 33px;
+	position: relative;
+}
+#portfolio-image {
+	margin: 0;
+}
+.portfolio-image a {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #090909;
+	display: block;
+	background: #fe9b00;
+	padding: 4px 10px;
+	line-height: 1;
+}
+
