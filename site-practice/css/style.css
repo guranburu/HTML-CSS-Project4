@@ -162,8 +162,46 @@ h3 {
 	float: left;
 	margin-right: 12px;
 }
-
-
-	
-
+#footer {
+	background: #e2e2e2;
+	padding: 32px 0 36px 0;
+	margin-top: 33px;
+}
+#footer-content {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+#footer-content a {
+	color: #5d5d5d;
+	font-weight: normal;
+	text-transform:capitalize;
+}
+#footer-content a:hover {
+	text-decoration: underline;
+}
+#footer-content ul li {
+	float: left;
+	padding: 0 7px;
+	border-left: 1px solid #5d5d5d;
+	line-height: 1;
+}
+#footer-content ul li:first-child {
+	padding-left: 0;
+	border: none;
+}	
+.clear {
+	clear: both;
+}
+#footer-content p {
+	margin: 5px 0 0 0;
+}
+#logo-footer {
+	width: 119px;
+	height: 64px;
+	background: url(../images/logo-footer.png) no-repeat;
+	position: absolute;
+	top: 19px;
+	right: 0;
+}
 
