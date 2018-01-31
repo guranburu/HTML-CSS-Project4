@@ -14,14 +14,22 @@ a {
 p {
 	margin: 8px 0;
 }
-h2 {
-	font-size: 18px;
+h2,h3 {
 	font-weight: bold;
 	color: #090909;
 	text-transform: uppercase;
+}
+h2 {
+	font-size: 18px;
 	background: url(../images/arrow.png) no-repeat 0 11px ;
 	padding-left: 28px;
 	margin-bottom: 11px;
+}
+h3 {
+	font-size: 12px;
+	background: url(../images/arrow_small.png) no-repeat 0 8px;
+	padding-left: 22px;
+	margin-bottom: 20px;
 }
 }
 .active, a:hover {
@@ -95,9 +103,6 @@ h2 {
 	overflow: hidden;
 	padding-bottom: 24px;
 }
-#content-box {
-	margin-right: 0;
-}
 .content-box h2 {
 	border-bottom: 5px solid #090909;
 	padding-bottom: 3px;
@@ -120,7 +125,6 @@ h2 {
 	padding-bottom:33px;
 	border-bottom: 1px solid #c0c0c0; 
 	overflow: hidden;
-	margin-bottom: 100px;
 }
 .portfolio-image {
 	width: 215px; 
@@ -129,8 +133,8 @@ h2 {
 	margin-right: 33px;
 	position: relative;
 }
-#portfolio-image {
-	margin: 0;
+#content-box, #portfolio-image {
+	margin-right: 0;
 }
 .portfolio-image a {
 	position: absolute;
@@ -142,4 +146,24 @@ h2 {
 	padding: 4px 10px;
 	line-height: 1;
 }
+#bottom-row {
+	margin-top: 20px;
+	overflow: hidden;
+}
+#blog {
+	width: 670px;
+	float: left;
+}
+#social {
+	width: 220px;
+	float: right;
+}
+#social ul li {
+	float: left;
+	margin-right: 12px;
+}
+
+
+	
+
 
