@@ -2,7 +2,7 @@
 
 body {
 	background: #f4f4f4;
-	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	font: 12px/1.6 Arial, Verdana, Tahoma, sans-serif;
 	color: #5d5d5d;
 }
 a {
@@ -10,6 +10,9 @@ a {
 	text-decoration: none;
 	font-weight: bold;
 	text-transform: uppercase;
+}
+p {
+	margin: 8px 0;
 }
 .active, a:hover {
 	color: #090909;
@@ -40,4 +43,71 @@ a {
 #menu ul li {
 	float: left;
 	margin-left: 63px;
+}
+#header-image {
+	height: 380px;
+	background: url(../images/header-image.jpg) no-repeat;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	position: relative;
+}
+#black-box {
+	width: 443px;
+	height: 43px;
+	background: #090909;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	color: #999898;
+	position: absolute;
+	left: 35px;
+	bottom: 68px;
+}
+#black-box p{
+	margin: 14px 12px;
+	line-height: 1;
+}
+#black-box a {
+	float: right;
+}
+#black-box a:hover {
+	color: #fe9b00;
+}	
+.content-box {
+	width: 285px;
+	float: left;
+	margin-right: 52px;
+}
+#content {
+	margin-top: 20px;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+	margin-bottom: 100px;
+	padding-bottom: 24px;
+}
+#content-box {
+	margin-right: 0;
+}
+.content-box h2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #090909;
+	text-transform: uppercase;
+	border-bottom: 5px solid #090909;
+	padding-bottom: 3px;
+	background: url(../images/arrow.png) no-repeat 0 11px ;
+	padding-left: 28px;
+	margin-bottom: 16px;
+}
+.content-box ul li {
+	background: url(../images/check.png) 0 3px no-repeat;
+	padding-left: 20px;
+	margin-bottom: 12px;
+	line-height: 1.3;
+}
+.itacil-text {
+	font-style: italic;
+	color: #090909;
+	margin-top: 20px;
 }
