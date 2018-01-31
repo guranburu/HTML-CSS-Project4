@@ -1,0 +1,43 @@
+@import url(reset.css);
+
+body {
+	background: #f4f4f4;
+	font: 12px Arial, Verdana, Tahoma, sans-serif;
+	color: #5d5d5d;
+}
+a {
+	color: #fe9b00;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.active, a:hover {
+	color: #090909;
+}
+
+#top-line {
+	background: #090909;
+	height: 16px;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+#header {
+	padding: 20px 0 16px 0;
+	border-bottom: 1px solid #c0c0c0;
+	overflow: hidden;
+}
+#logo {
+	width: 183px;
+	height: 100px;
+	float: left;
+}
+#menu {
+	float: right;
+	margin-top: 40px;
+}
+#menu ul li {
+	float: left;
+	margin-left: 63px;
+}
