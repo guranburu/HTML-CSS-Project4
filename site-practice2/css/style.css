@@ -1,53 +1,105 @@
 @import url(reset.css);
+ 
+ 
+ body {
+ 	font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+	background: url(../images/main_bg.jpg);
+ }
+ #header {
+ 	min-width: 960px;
+ 	max-height: 1200px;
+ 	margin: 0 auto;
+ }
+ #logo {
+ 	width: 241px;
+ 	height: 46px;
+ 	float: left;
+ 	margin-top: 44px;
+ 	margin-bottom: 42px;
+ 	margin-left: 10px;
+ }
+ #banner {
+ 	float:right;
+ 	width: 468px;
+ 	height: 60px;
+ 	margin-top: 34px;
+ 	margin-right: 10px;
+ }
+ .clear {
+ 	clear: both;
+ }
+ p {
+	 margin: 7px 0 13px 0;
+ }
+ a {
+ 	text-decoration: none;
+	color: #5e5e5e;
+ }
+ a:hover {
+	 text-decoration: underline;
+ }
+ h2 {
+	 font-size: 18px;
+	 line-height: 1.1;
+	 margin-bottom: 6px;
+ }
+ #top-menu {
+ 	min-width: 960px;
+ 	height: 49px;
+ 	background: url(../images/top_menu_bg.png) repeat-x;
+ }
+ #inner-menu,  #wrapper {
+ 	min-width: 960px;
+ 	max-width: 1200px;
+ 	margin: 0 auto;
+ }
+ #inner-menu ul li{
+ 	float: left;
+ 	text-transform: uppercase;
+ }
+ #inner-menu a {
+ 	color: #ebebeb;
+ 	font-size: 12px; 
+ 	padding: 16px 15px;
+ 	display: block;
+ } 
+ #inner-menu a:hover {
+	 background: url(../images/menu_hover.png) repeat-x;
+	 text-decoration: none;
+ }
+#sidebar {
+	width: 300px;
+	height: 400px;
+	background: #b2b2b2;
+	float: right;
+}
+#content {
+	margin-right: 300px;
+	padding: 15px 38px 50px 10px;
+}
+.post {
+	border-bottom: 1px dashed #e5e5e5;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.thumbnail {
+	float: left;
+	margin-bottom: 15px;
+}
+.thumbnail img {
+	border: 3px solid #e0e0e0;
+}
+.post-content {
+	margin-left: 180px;
+}
+.post-categories, .post-published {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #aaaaaa;
+margin: 0 0 3px 0;	
+}
 
 
-body {
-	font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
-}
-#header {
-	min-width: 960px;
-	max-height: 1200px;
-	border: 2px solid #ff0000;
-	margin: 0 auto;
-}
-#logo {
-	width: 241px;
-	height: 46px;
-	float: left;
-	margin-top: 44px;
-	margin-bottom: 42px;
-	margin-left: 10px;
-}
-#banner {
-	float:right;
-	width: 468px;
-	height: 60px;
-	margin-top: 34px;
-	margin-right: 10px;
-}
-.clear {
-	clear: both;
-}
-a {
-	text-decoration: none;
-}
-#top-menu {
-	min-width: 960px;
-	height: 49px;
-	background: url(../images/top_menu_bg.png) repeat-x;
-}
-#inner-menu {
-	min-width: 960px;
-	max-width: 1200px;
-	margin: 0 auto;
-}
-#inner-menu ul li{
-	float: left;
-	text-transform: uppercase;
-}
-#inner-menu a {
-	color: #ebebeb;
-	font-size: 12px; 
-	padding: 16px 15px;
-	display: block;
-}
+
+
+
+
