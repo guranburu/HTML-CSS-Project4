@@ -5,11 +5,6 @@
  	font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
 	background: url(../images/main_bg.jpg);
  }
- #header {
- 	min-width: 960px;
- 	max-height: 1200px;
- 	margin: 0 auto;
- }
  #logo {
  	width: 241px;
  	height: 46px;
@@ -48,7 +43,7 @@
  	height: 49px;
  	background: url(../images/top_menu_bg.png) repeat-x;
  }
- #inner-menu,  #wrapper {
+ #header, #inner-menu,  #wrapper, #middle-content, #bottom-content {
  	min-width: 960px;
  	max-width: 1200px;
  	margin: 0 auto;
@@ -73,13 +68,16 @@
 	padding-right: 10px;
 }
 #content {
-	margin-right: 300px;
-	padding: 15px 38px 0 10px;
+	margin-right: 310px;
+	padding: 30px 38px 0 10px;
 }
 .post {
 	border-bottom: 1px dashed #e5e5e5;
 	overflow: hidden;
 	margin-top: 15px;
+}
+.post:first-child {
+	margin-top: 0;
 }
 .thumbnail {
 	float: left;
@@ -190,4 +188,68 @@
 	padding-bottom: 8px;
 	padding-top: 7px;
 	
+}
+#footer {
+	min-width: 960px;
+	color: #e0e0e0;
+}
+#footer-top {
+	height: 19px;
+	background: url(../images/footer_top_bg.png) repeat-x;
+}
+#footer-middle {
+	background: url(../images/footer_middle_bg.png);
+}
+#middle-content {
+	padding-bottom: 60px;
+} 
+.footer-box {
+	padding-top: 55px;
+	width: 30%;
+	margin-right: 5%;
+	float: left;
+}
+#footer-box {
+	margin-right: 0;
+}
+#magazine {
+	background: url(../images/logo_footer.png) no-repeat 10px 0;
+	padding: 37px 0 0 10px;
+}
+#magazine p {
+	margin: 16px 0;
+}
+#footer h3 {
+	background: url(../images/footer_h3_bg.png) repeat-x 0 5px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	width: 220px;
+	margin-bottom: 8px;
+}
+#footer h3 span {
+	background: url(../images/footer_middle_bg.png);
+	padding-right: 13px;
+}
+#archives {
+	padding-right: 10px;
+}
+#recent-posts ul li, #archives ul li  {
+	padding: 12px 0;
+	background: url(../images/dashed_bg.png) repeat-x left bottom;
+	
+}
+#recent-posts ul li a, #archives ul li a {
+	color: #e0e0e0;
+}
+#footer-bottom {
+	background: url(../images/footer_bottom_bg.png) repeat-x;
+}
+#footer-bottom p{
+	margin: 0;
+	padding: 25px 10px;
+}
+#footer-bottom a {
+	color: #8f8f8f;
 }
